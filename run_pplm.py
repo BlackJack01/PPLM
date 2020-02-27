@@ -84,6 +84,14 @@ DISCRIMINATOR_MODELS_PARAMS = {
         "default_class": 3,
         "pretrained_model": "gpt2-medium",
     },
+    "generic":{
+        "path":"generic_classifier_head_epoch_3.pt",
+        "class_size":4,
+        "embed_size":1024,
+        "class_vocab":{"anticipation":0,"fomo":1,"joy":2,"trust":4},
+        "default_class":0,
+        "pretrained_model":"gpt2-medium",
+    }
 }
 
 
